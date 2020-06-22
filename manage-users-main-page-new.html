@@ -24,15 +24,20 @@
                   <div class="logo au-body au-body--dark">
                      <a href="index.html"><img src="../mycasa-src/img/CASALOGO-white-i.svg"></a>
                   </div>
+                  <div class="casa-menu">
 
-                  	  <div class="casa-sign-out">
+                  	<div id="dropdown-menu">
+						<div id="dd-menu"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/menu.png" height="20" />Menu</a></div>
+						<div id="dd-close"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/close.png" height="20" />Close</a><br />
+						<br />
+						<p id="mycasa-home"><a href="#">myCASA home</a></p>
+						<p><a href="#">Switch profile</a></p>
+						<p><a href="mycasa-signed-out.html">Sign out</a></p>
+						</div>
 
-                         <div class="au-body au-body--dark">
-                             <a class="au-btn au-btn--dark" href="signed-out.html">Sign out</a>
-                         </div>
 
-                     </div>
-               </div>
+                  </div>
+               </div></div>
             </div>
          </div>
          <div class="body">
@@ -48,21 +53,11 @@
          <div class="container">
                <nav class="au-breadcrumbs" aria-label="breadcrumb">
                   <ul class="au-link-list au-link-list--inline">
-                     <li><a href="dashboard-org.html#loaded">myCASA</a></li>
+                     <li><a href="dashboard-org.html">myCASA</a></li>
                      <li>Manage roles and users</li>
                   </ul>
                </nav>
 
-               <br />
-
-               <div role="alert" class="au-page-alerts au-page-alerts--success">
-                  <div class="row">
-                     <div class="col-xs-12 col-md-12 col-lg-12">
-            <h3>CEO changed</h3>
-            <p>A confirmation of this additional role has been sent to your organisation's email address <strong>admin@flyingfuncompany.com</strong> as well as the users email address</p>             
-                     </div>
-                  </div>
-               </div>
 			     <div class="au-form-group">
 			           <header class="au-header" role="banner">
                   <h1 class="break desktop au-header-heading">Manage roles and users</h1>
@@ -76,7 +71,7 @@
 
 <div class="au-form-group">
 <div class="au-table__wrapper">
-	<div><a class="au-btn au-btn--secondary" href="user-details-2.html">Add user</a></div>
+	<div><a class="au-btn au-btn--secondary" href="user-details.html">Add user</a></div>
 
 	<br>
     <table class="au-table au-table--striped">
@@ -91,36 +86,12 @@
             </tr>
         </thead>
         <tbody class="au-table__body">
-  <tr class="au-table__row">
-				<td class="au-table__cell"><a href="user-details-2.html">Heidi Gilmore</a></td>
-				<td class="au-table__cell">1478952</td>
-				<td class="au-table__cell"><a href="user-details-2.html">Edit</a></td>
-            </tr>
+
 
             <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Iona Rahman</a></td>
-				<td class="au-table__cell">1234567</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Khalil Cochran</a></td>
-                <td class="au-table__cell">6789454</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Dannielle Matthams</a></td>
-                <td class="au-table__cell">9028364</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-			  <tr class="au-table__row">
-				  <td class="au-table__cell"><a href="#">Corben Rodgers</a></td>
-				<td class="au-table__cell">1290987</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Terry Timms</a></td>
-                <td class="au-table__cell">8766678</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
+				<td class="au-table__cell">-</td>
+				<td class="au-table__cell">-</td>
+				<td class="au-table__cell">-</td>
             </tr>
         </tbody>
     </table>
@@ -145,32 +116,7 @@
 				<td class="au-table__cell">2090987</td>
 				<td class="au-table__cell"><a href="#">Edit</a></td>
             </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Todd Fuller</a></td>
-                <td class="au-table__cell">2909865</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Benjamin Banks</a></td>
-                <td class="au-table__cell">1875344</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-			  <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Raj Holman</a></td>
-				<td class="au-table__cell">3475859</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Jamila Cline</a></td>
-                <td class="au-table__cell">4798299</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-            <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Zane Bird</a></td>
-                <td class="au-table__cell">1000872</td>
-				<td class="au-table__cell"><a href="#">Edit</a></td>
-            </tr>
-
+           
         </tbody>
     </table>
 	<table class="au-table au-table--striped">
@@ -190,9 +136,9 @@
 
 
             <tr class="au-table__row">
-				<td class="au-table__cell"><a href="edit-user-modal-ceo.html">Heidi Gilmore</a></td>
-				<td class="au-table__cell">1478952</td>
-				<td class="au-table__cell"><a href="edit-user-modal-ceo.html">Change</a></td>
+				<td class="au-table__cell">-</td>
+				<td class="au-table__cell">-</td>
+				<td class="au-table__cell">-</td>
             </tr>
 
         </tbody>
@@ -202,7 +148,7 @@
 			<br>
 			<br>
        <h4> DAMP contact</h4>
-			<span class="au-hint-text">This person is your organisation’s primary contact with CASA regarding the responsibilities of your drug and alcohol management program (DAMP). Information provided here will override previous DAMP contact details on CASA records.</span>
+       <span class="au-hint-text">This person is your organisation’s primary contact with CASA regarding the responsibilities of your drug and alcohol management program (DAMP). Information provided here will override previous DAMP contact details on CASA records.</span>
         <thead class="au-table__head">
             <tr class="au-table__row">
                 <th scope="col" class="au-table__header au-table__header--width-25">Name</th>
@@ -214,9 +160,9 @@
 
 
             <tr class="au-table__row">
-				<td class="au-table__cell"><a href="#">Rory Timms</a></td>
-                <td class="au-table__cell">6755567</td>
-				<td class="au-table__cell"><a href="#">Change</a></td>
+				<td class="au-table__cell">-</td>
+                <td class="au-table__cell">-</td>
+				<td class="au-table__cell">-</td>
             </tr>
 
         </tbody>
@@ -231,7 +177,7 @@
 <br>
 										<br>
 
-				<a class="au-btn au-btn--secondary" href="user-details-2.html">Add user</a>
+				<a class="au-btn au-btn--secondary" href="user-details.html">Add user</a>
 
 				</div>
 			 <div class="au-form-group">
